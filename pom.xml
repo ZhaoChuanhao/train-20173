@@ -84,28 +84,28 @@
         <groupId>io.choerodon</groupId>
         <artifactId>choerodon-starter-bus</artifactId>
         <version>${choerodon.starters.version}</version>
-        </dependency>
+        </dependency>-->
 
 
-        mysql
-        <dependency>
+        <!--mysql-->
+        <!--<dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
-        </dependency>
+        </dependency>-->
 
 
-        &lt;!&ndash;监控相关依赖 &ndash;&gt;
-        <dependency>&lt;!&ndash; 如果服务需要监控功能则需要此依赖 &ndash;&gt;
+        <!--监控相关依赖 -->
+        <!--<dependency>&lt;!&ndash; 如果服务需要监控功能则需要此依赖 &ndash;&gt;
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-stream-binder-kafka</artifactId>
-        </dependency>
+        </dependency>-->
 
-        <dependency>&lt;!&ndash; 如果服务需要hystrix监控功能则需要此依赖 &ndash;&gt;
+        <!--<dependency>&lt;!&ndash; 如果服务需要hystrix监控功能则需要此依赖 &ndash;&gt;
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-netflix-hystrix-stream</artifactId>
-        </dependency>
+        </dependency>-->
 
-        <dependency>&lt;!&ndash; 如果服务需要zipkin监控功能则需要此依赖 &ndash;&gt;
+        <!--<dependency>&lt;!&ndash; 如果服务需要zipkin监控功能则需要此依赖 &ndash;&gt;
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-sleuth-stream</artifactId>
         </dependency>-->
@@ -123,6 +123,12 @@
         <scope>test</scope>
         </dependency>-->
 
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>1.18</version>
+        </dependency>
+        
     </dependencies>
 
     <build>
