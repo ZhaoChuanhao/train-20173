@@ -75,11 +75,11 @@
             <artifactId>choerodon-starter-core</artifactId>
             <version>${choerodon.starters.version}</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>io.choerodon</groupId>
             <artifactId>choerodon-starter-mybatis-mapper</artifactId>
             <version>${choerodon.starters.version}</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>io.choerodon</groupId>
             <artifactId>choerodon-starter-bus</artifactId>
@@ -88,10 +88,10 @@
 
 
         <!--mysql-->
-        <dependency>
+        <!--<dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-        </dependency>
+        </dependency>-->
 
 
         <!--监控相关依赖 -->
@@ -121,6 +121,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>1.18</version>
         </dependency>
 
     </dependencies>
